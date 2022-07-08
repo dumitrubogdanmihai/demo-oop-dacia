@@ -1,4 +1,3 @@
-import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -8,8 +7,6 @@ import org.junit.Test;
 public class DaciaTest {
   @Test
   public void testSpeed() throws InterruptedException {
-    assertFalse(true);
-    
     DaciaEngine mockedEngine = mock(DaciaEngine.class);
     mockedEngine.setAcceleration(100);
     when(mockedEngine.getSpeedIncrement())
