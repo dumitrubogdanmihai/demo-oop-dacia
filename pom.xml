@@ -3,4 +3,19 @@
   <groupId>com.oxygenxml</groupId>
   <artifactId>dmeo-oop-cars</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.10.19</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
