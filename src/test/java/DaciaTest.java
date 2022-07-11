@@ -7,6 +7,9 @@ import org.junit.Test;
 public class DaciaTest {
   @Test
   public void testSpeed() throws InterruptedException {
+    assertTrue(false);
+    
+    
     DaciaEngine mockedEngine = mock(DaciaEngine.class);
     mockedEngine.setAcceleration(100);
     when(mockedEngine.getSpeedIncrement())
